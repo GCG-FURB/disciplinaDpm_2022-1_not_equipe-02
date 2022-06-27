@@ -1,0 +1,16 @@
+26 54 19807559 S,
+49 04 48623879 W
+
+26 54 57911 S,
+49 04 48623879 W
+
+DD = 26 + (54/60) + (19/3600)
+
+l.values.ratios[1].numerator.toString() + "." (l.values.ratios[1].numerator/60 + l.values.ratios[2].numerator/3600).toString()
+
+
+((l.values.ratios[1].numerator/60) + (l.values.ratios[2].numerator/1000/3600)).toString().replaceAll("0.","")
+
+
+26   +   ( 53   /   60 )   +   ( 05   /   3600 ) = 26.884722
+49   +   ( 12   /   60 )   +   ( 54   /   3600 ) = 49.215
